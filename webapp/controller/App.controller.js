@@ -60,18 +60,18 @@ sap.ui.define([
 		// 	this.getView().setModel(i18nModel,"i18n");
 		// },
 
-		onShowHello: function() {
-			//show a native javaScript alert
-			// alert("hello world");
-			// alert("hello world");
-			// MessageToast.show("hello world");
-			// read msg from i18n model
-			var oBundle = this.getView().getModel("i18n").getResourceBundle();
-			var sRecipient = this.getView().getModel().getProperty("/recipient/name");
-			var sMsg = oBundle.getText("helloMsg",[sRecipient]);
-			// show message
-			MessageToast.show(sMsg);
-		}
+		// onShowHello: function() {
+		// 	//show a native javaScript alert
+		// 	// alert("hello world");
+		// 	// alert("hello world");
+		// 	// MessageToast.show("hello world");
+		// 	// read msg from i18n model
+		// 	var oBundle = this.getView().getModel("i18n").getResourceBundle();
+		// 	var sRecipient = this.getView().getModel().getProperty("/recipient/name");
+		// 	var sMsg = oBundle.getText("helloMsg",[sRecipient]);
+		// 	// show message
+		// 	MessageToast.show(sMsg);
+		// }
 
 	});
 
