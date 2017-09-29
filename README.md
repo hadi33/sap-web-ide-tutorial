@@ -1,2 +1,2 @@
 # sap-web-ide-tutorial
-sapui5
+waklThrough
