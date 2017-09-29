@@ -1,7 +1,7 @@
 <mvc:View controllerName="sap.ui.demo.wt.controller.HelloPanel" xmlns="sap.m" xmlns:mvc="sap.ui.m.mvc">
 	<Panel headerText="{i18n>helloPanelTitle}" class="sapUiResponsiveMargin" width="auto">
 		<content>
-			<Button text="{i18n>showHelloButtonText}" press="onShowHello" class="myAppDemoWT myCustomButton"/>
+			<Button text="{i18n>openDialogButtonText}" press="onOpenDialog" class="sapUISmallMarginEnd"/>
 			<Input value="{/recipient/name}" valueLiveUpdate="true" width="60%"/>
 			<Text text="hello {/recipient/name}" class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
 		</content>
