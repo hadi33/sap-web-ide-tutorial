@@ -15,24 +15,7 @@
         "runnerId": "webapprunner",
         "id": 1811280,
         "displayName": "Run index.html",
-        "lastRunTimeStamp": 1506934707854
-      }
-    },
-    {
-      "filePath": "/webapp/index.html",
-      "previewMode": 1,
-      "dataMode": 1,
-      "ui5ActiveVersion": null,
-      "ui5VerSource": null,
-      "isDefaultVersion": 0,
-      "workspace": "withoutWorkspace",
-      "urlParameters": [],
-      "backendSystem": [],
-      "_metadata": {
-        "runnerId": "qunitrunner",
-        "id": 5622300,
-        "displayName": "Run index.html",
-        "lastRunTimeStamp": 1506567766041
+        "lastRunTimeStamp": 1506938380156
       }
     }
   ]
