@@ -67,35 +67,35 @@
 				"dataSource": "invoiceRemote"
 			}
 		},
-		"rounting":{
+		"routing":{
 			"config":{
 				"routerClass":"sap.m.routing.Router",
 				"viewType":"XML",
-				"viewPath":"sap.ui.demo.wt.demo",
+				"viewPath":"sap.ui.demo.wt.view",
 				"controlId":"app",
-				"controlAggreation":"pages"
+				"controlAggregation":"pages"
 				
 			},
 			
 			"routes":[
 				{
 					"pattern":"",
-					"name":"overView",
-					"target":"overView"
+					"name":"overview",
+					"target":"overview"
 				},
 				
 				{
-					"pattern":"detail",
+					"pattern":"detail/{invoicePath}",
 					"name":"detail",
 					"target":"detail" 
 				}
 				],
 			"targets":{
-				"overView":{
-				"viewName":"OverName"
+				"overview":{
+				"viewName":"overview"
 				},
 				"detail":{
-				"viewName":"Detail"
+				"viewName":"detail"
 				}
 			}
 			
