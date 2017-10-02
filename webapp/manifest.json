@@ -29,7 +29,7 @@
 			"tablet": true,
 			"phone": true
 		},
-		"supportedThemes": [ "sap_belize"]
+		"supportedThemes": ["sap_belize"]
 	},
 	"sap.ui5": {
 		"rootView": {
@@ -52,6 +52,10 @@
 				"settings": {
 					"bundleName": "sap.ui.demo.wt.i18n.i18n"
 				}
+			},
+			"invoices": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "Invoices.json"
 			}
 		},
 		"resources": {
@@ -59,5 +63,6 @@
 				"uri": "css/style.css"
 			}]
 		}
+
 	}
 }

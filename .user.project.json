@@ -15,15 +15,11 @@
         "runnerId": "webapprunner",
         "id": 1811280,
         "displayName": "Run index.html",
-<<<<<<< HEAD
-        "lastRunTimeStamp": 1506928148460
-=======
-        "lastRunTimeStamp": 1506925699801
->>>>>>> 838d2c11e3b469b061a3a5eb80d5f846f6933f9e
+        "lastRunTimeStamp": 1506931485445
       }
     },
     {
-      "filePath": "/webapp/hello.html",
+      "filePath": "/webapp/index.html",
       "previewMode": 1,
       "dataMode": 1,
       "ui5ActiveVersion": null,
@@ -35,7 +31,7 @@
       "_metadata": {
         "runnerId": "qunitrunner",
         "id": 5622300,
-        "displayName": "Run hello.html",
+        "displayName": "Run index.html",
         "lastRunTimeStamp": 1506567766041
       }
     }

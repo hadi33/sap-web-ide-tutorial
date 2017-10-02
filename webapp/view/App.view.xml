@@ -14,6 +14,7 @@
 							<!--<Input value="{/recipient/name}" valueLiveUpdate="true" width="60%"/>-->
 							<!--<Text text="hello {/recipient/name}" class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>-->
 							<mvc:XMLView viewName="sap.ui.demo.wt.view.HelloPanel"/>
+							<mvc:XMLView viewName="sap.ui.demo.wt.view.InvoiceList"/>
 					<!--	</content>-->
 					<!--</Panel>-->
 				</content>

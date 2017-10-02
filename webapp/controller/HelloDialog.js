@@ -3,7 +3,7 @@ sap.ui.define([
 ],function(UI5Object){
 	"use strict";
 	return UI5Object.extend("sap.ui.demo.wt.controller.HelloDialog",{
-		contructor:function(oView){
+		constructor:function(oView){
 			this._oView = oView;
 		},
 		
@@ -19,7 +19,7 @@ sap.ui.define([
 					} 
 				};
 				//create dialog via fragment factory
-				oDialog = sap.ui.xmlfragment(oView.getyId(),"sap.ui.demo.view.HelloDialog",oFragmentController);
+				oDialog = sap.ui.xmlfragment(oView.getId(),"sap.ui.demo.wt.view.HelloDialog",oFragmentController);
 				// connect dialog to the root view of this component(model,lyfecycle)
 				oView.addDependent(oDialog);
 				
