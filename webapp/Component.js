@@ -1,8 +1,9 @@
 sap.ui.define([
 	"sap/ui/core/UIComponent",
-	"sap/ui/model/json/JSONModel"
+	"sap/ui/model/json/JSONModel",
+	"sap/ui/demo/wt/controller/HelloDialog"
 	// "sap/ui/model/resource/ResourceModel"
-], function(UIComponent, JSONModel) {
+], function(UIComponent, JSONModel,HelloDialog) {
 	"use strict";
 
 	return UIComponent.extend("sap.ui.demo.wt.Component", {
@@ -32,6 +33,9 @@ sap.ui.define([
 
 			var oModel = new JSONModel(oData);
 			this.setModel(oModel);
+			
+			//set dialog
+			this._helloDialog = new HelloDialog(this.getRootControl());
 
 			// set i18n model
 			// var i18nModel = new ResourceModel({
@@ -40,6 +44,9 @@ sap.ui.define([
 
 			// this.setModel(i18nModel, "i18n");
 
+		},
+		openHelloDialog:function(){
+			this._helloDialog.open();
 		}
 	});
 });
